@@ -1,0 +1,70 @@
+@import 'constants';
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font_family_main;
+	color: $primary-color;
+	font-size: $font_size;
+}
+
+.tmp {
+	border-bottom: 1px dashed lightgray;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	border-left: 1px dashed lightgray;
+	border-right: 1px dashed lightgray;
+}
+
+header {
+	min-height: 50px;
+	
+	.top-header {
+		min-height: 250px;
+	}
+
+	.main-menu {
+		background-color: gray;
+
+		.wrapper {
+			min-height: 85px;
+		}
+	}
+}
+
+main {
+	.slider {
+		min-height: 300px;
+	}
+
+	.content {
+		min-height: 800px;
+	}
+
+	.second-menu {
+		background-color: gray;
+
+		.wrapper {
+			min-height: 85px;
+		}
+	}
+
+	.product-block {
+		min-height: 800px;
+	}
+
+	.promo-block {
+		background-color: gray;
+	
+		.wrapper {
+			min-height: 500px;
+		}
+	}
+
+	.content {
+		min-height: 400px;
+	}
+}
